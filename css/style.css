@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 90%;
+    display:  flex;
+    margin: 0 auto;
+    /* background-color: blue; */
+    height: 20vh;
+}
+.middle {
+    scrollbar-width: none;
+}
+.middle  ::-webkit-scrollbar {
+    display: none;
+  }
+  .search ,.prime, .trending, .suggestion , .terms{
+    /* background-color: azure; */
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .third {
+    scrollbar-width: none;
+}
+.third  ::-webkit-scrollbar {
+    display: none;
+  }
+  .sidebar{
+    width: 25%;
+    /* justify-content: flex-start; */
+    /* background-color: bisque; */
+  }
+  @media (max-width: 640px) {
+.third ,.sidebar{
+    display: none;
+}
+.middle{
+    /* background-color: aqua; */
+    width: 98%;
+}
+  }
