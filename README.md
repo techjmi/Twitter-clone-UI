@@ -24,7 +24,7 @@ The Twitter clone project is a static webpage that replicates key components of 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/twitter-clone-tailwind.git
+   git clone https://github.com/techjmi/Twitter-clone-UI.git
    ```
 
 2. Open `index.html` in your preferred web browser.
